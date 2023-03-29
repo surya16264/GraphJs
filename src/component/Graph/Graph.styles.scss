@@ -1,0 +1,31 @@
+.Graph {
+    .Navbar {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 5rem;
+        column-gap: 2rem;
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    h1 {
+        text-align: center;
+    }
+ }
+
+ .LineChart, .BarChart {
+    .Header {
+        .Navbar {
+            display: flex;
+            justify-content: flex-end;
+            padding: 0 5rem;
+            column-gap: 2rem;
+    
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
